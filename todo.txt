@@ -1,0 +1,46 @@
+refe_db
+
+tbl_user:
+tabla para usuarios.
+
+user_id int(11) A_I Primary
+user_username varchar(30) 
+user_pass varchar(30)
+user_rol varchar(30)
+
+*username! Hay que chequear que sea unico.
+
+tbl_ref:
+tabla para referidos
+ref_id int(11) A_I Primary
+ref_own int(11) 	;ID DE QUIEN LO METIO
+ref_nom varchar(100)	;Nombre del ref
+ref_ape varchar(100)	;Apellido del ref
+ref_tel1 varchar(15)	;Telefono 1 del ref
+ref_tel2 varchar(15)	;Telefono 2 del ref
+ref_tel3 varchar(15)	;Telefono 3 del ref
+ref_who varchar(200)	;Nombre de quien lo refirio
+
+TODO
+----
+#DONE Meter datos a la DB.tbl_ref
+#DONE Crear sesion y ponerla en la variable para que empiece a meter los ref con el own
+#DONE Si Agent mostrar agregar referido.
+#DONE Si Sup mostrar todos los referidos.
+#DONE El agente puede eliminar sus referidos.
+#DONE El supervisor puede eliminar referidos de todos
+#DONE Reporte sencillo
+#DONE Trasferir refs.
+# Revisar ortografia
+# Revisar palabras en ingles
+# Tema tipo el banco azul
+# Logo banco azul
+#DONE Menu de acciones logout y add user? y add ref
+#DONE Supervisor puede crear ref y asignarlos en el mismo form
+#DONE Nav bar para regresarse a las pantallas principales
+#DONE Modulo para desactivar y activar usuarios (Con Eliminar)
+#DONE Poup para editar usuarios
+#DONE Editar referidos
+#DONE DEBUG NUEVO USUARIO
+#DONE DEBUG REPORTE
+# DEBUG UPDATE PASSWORD USUARIO EXISTENTE
